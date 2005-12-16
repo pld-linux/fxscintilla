@@ -11,7 +11,10 @@ Group:		X11/Development/Libraries
 Source0:	http://download.savannah.nongnu.org/releases/fxscintilla/%{name}-%{version}.tar.gz
 # Source0-md5:	d33ffcc6066efa2758271f6a16645327
 URL:		http://savannah.gnu.org/projects/fxscintilla/
+BuildRequires:	autoconf
+BuildRequires:	automake
 BuildRequires:	fox-devel >= 1.4
+BuildRequires:	libtool
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
