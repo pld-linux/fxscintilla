@@ -5,16 +5,16 @@
 Summary:	FXScintilla - Scintilla Editor Widget for FOX
 Summary(pl):	FXScintilla - widget edytora Scintilla dla biblioteki FOX
 Name:		fxscintilla
-Version:	1.63
-Release:	1
+Version:	1.71
+Release:	0.1
 License:	LGPL
 Group:		X11/Development/Libraries
 Source0:	http://download.savannah.nongnu.org/releases/fxscintilla/%{name}-%{version}.tar.gz
-# Source0-md5:	d33ffcc6066efa2758271f6a16645327
+# Source0-md5:	302b5a3d54a259e3bfea2ab1f4040d49
 URL:		http://savannah.gnu.org/projects/fxscintilla/
 BuildRequires:	autoconf
 BuildRequires:	automake
-BuildRequires:	fox-devel >= 1.4
+BuildRequires:	fox-devel >= 1.6
 BuildRequires:	libtool
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -64,7 +64,7 @@ Statyczne biblioteki FXScintilla.
 %configure \
 	--enable-nolexer \
 	--enable-shared \
-	--with-fox-1-4 \
+	--with-fox-1-6 \
 	--enable-static=%{?with_static_libs:yes}%{!?with_static_libs:no}
 
 %{__make}
