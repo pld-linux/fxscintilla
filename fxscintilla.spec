@@ -3,7 +3,7 @@
 %bcond_without	static_libs	# don't build static libraries
 #
 Summary:	FXScintilla - Scintilla Editor Widget for FOX
-Summary(pl):	FXScintilla - widget edytora Scintilla dla biblioteki FOX
+Summary(pl.UTF-8):   FXScintilla - widget edytora Scintilla dla biblioteki FOX
 Name:		fxscintilla
 Version:	1.71
 Release:	1
@@ -23,14 +23,14 @@ FXScintilla is an implementation of the Scintilla Widget Editor for
 the FOX Graphical User Interface toolkit. This package includes the
 library itself.
 
-%description -l pl
+%description -l pl.UTF-8
 FXScintilla to implementacja widgetu edytora Scintilla dla tookitu
-graficznego interfejsu uøytkownika FOX. Ten pakiet zawiera w≥a∂ciw±
-bibliotekÍ.
+graficznego interfejsu u≈ºytkownika FOX. Ten pakiet zawiera w≈Ça≈õciwƒÖ
+bibliotekƒô.
 
 %package devel
 Summary:	Header files for FXScintilla library
-Summary(pl):	Pliki nag≥Ûwkowe biblioteki FXScintilla
+Summary(pl.UTF-8):   Pliki nag≈Ç√≥wkowe biblioteki FXScintilla
 Group:		X11/Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 Requires:	fox-devel >= 1.4
@@ -38,19 +38,19 @@ Requires:	fox-devel >= 1.4
 %description devel
 Header files for FXScintilla library.
 
-%description devel -l pl
-Pliki nag≥Ûwkowe bilioteki FXScintilla.
+%description devel -l pl.UTF-8
+Pliki nag≈Ç√≥wkowe bilioteki FXScintilla.
 
 %package static
 Summary:	Static FXScintilla libraries
-Summary(pl):	Statyczne biblioteki FXScintilla
+Summary(pl.UTF-8):   Statyczne biblioteki FXScintilla
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
 Static FXScintilla libraries.
 
-%description static -l pl
+%description static -l pl.UTF-8
 Statyczne biblioteki FXScintilla.
 
 %prep
