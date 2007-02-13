@@ -3,7 +3,7 @@
 %bcond_without	static_libs	# don't build static libraries
 #
 Summary:	FXScintilla - Scintilla Editor Widget for FOX
-Summary(pl.UTF-8):   FXScintilla - widget edytora Scintilla dla biblioteki FOX
+Summary(pl.UTF-8):	FXScintilla - widget edytora Scintilla dla biblioteki FOX
 Name:		fxscintilla
 Version:	1.71
 Release:	1
@@ -30,7 +30,7 @@ bibliotekę.
 
 %package devel
 Summary:	Header files for FXScintilla library
-Summary(pl.UTF-8):   Pliki nagłówkowe biblioteki FXScintilla
+Summary(pl.UTF-8):	Pliki nagłówkowe biblioteki FXScintilla
 Group:		X11/Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 Requires:	fox-devel >= 1.4
@@ -43,7 +43,7 @@ Pliki nagłówkowe bilioteki FXScintilla.
 
 %package static
 Summary:	Static FXScintilla libraries
-Summary(pl.UTF-8):   Statyczne biblioteki FXScintilla
+Summary(pl.UTF-8):	Statyczne biblioteki FXScintilla
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
