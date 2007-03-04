@@ -6,7 +6,7 @@ Summary:	FXScintilla - Scintilla Editor Widget for FOX
 Summary(pl.UTF-8):	FXScintilla - widget edytora Scintilla dla biblioteki FOX
 Name:		fxscintilla
 Version:	1.71
-Release:	1
+Release:	2
 License:	LGPL
 Group:		X11/Development/Libraries
 Source0:	http://download.savannah.nongnu.org/releases/fxscintilla/%{name}-%{version}.tar.gz
